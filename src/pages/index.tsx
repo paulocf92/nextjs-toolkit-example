@@ -1,5 +1,11 @@
+import { Counter } from '../components/Counter';
+import { KanyeQuote } from '../components/KanyeQuote';
+
 export default function Home() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Counter />
+      <KanyeQuote />
+    </>
   )
 }
