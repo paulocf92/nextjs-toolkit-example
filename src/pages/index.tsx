@@ -1,5 +1,5 @@
 import { useAppSelector } from '../app/hooks';
-import { selectCount } from '../features/counter/counterSlice';
+import { selectCount } from '../features/counter';
 
 import { Counter } from '../components/Counter';
 import { KanyeQuote } from '../components/KanyeQuote';

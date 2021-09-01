@@ -5,7 +5,7 @@ import {
   increment,
   incrementByAmount,
   selectCount,
-} from '../../features/counter/counterSlice';
+} from '../../features/counter';
 
 export function Counter() {
   const dispatch = useAppDispatch();
