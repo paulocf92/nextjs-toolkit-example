@@ -1,12 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
 
 import { counterReducer } from '../features/counter';
-import kanyeReducer from '../features/kanye/kanyeSlice';
+import { kanyeReducer } from '../features/kanye';
 
 export const store = configureStore({
   reducer: {
     counter: counterReducer,
-    kanye: kanyeReducer,
+    kanyeQuote: kanyeReducer,
   },
 });
 

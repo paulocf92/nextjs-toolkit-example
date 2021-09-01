@@ -1,9 +1,9 @@
 import { useAppDispatch, useAppSelector } from '../../app/hooks';
-import { getKanyeQuote, selectKanye } from '../../features/kanye/kanyeSlice';
+import { getKanyeQuote, kanyeQuoteSelector } from '../../features/kanye';
 
 export function KanyeQuote() {
   const dispatch = useAppDispatch();
-  const { data, pending, error } = useAppSelector(selectKanye);
+  const { data, pending, error } = useAppSelector(kanyeQuoteSelector);
 
   return (
     <div
